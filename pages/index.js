@@ -170,9 +170,8 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <a
+              className="basis-1/3 flex-1 "
               href="https://biscord.onrender.com/"
-              target="_blank"
-              rel="noopener noreferrer"
             >
               <div className="basis-1/3 flex-1 ">
                 <Image
@@ -184,9 +183,8 @@ export default function Home() {
               </div>
             </a>
             <a
+              className="basis-1/3 flex-1 "
               href="https://meetupx.onrender.com/"
-              target="_blank"
-              rel="noopener noreferrer"
             >
               <div className="basis-1/3 flex-1 ">
                 <Image
