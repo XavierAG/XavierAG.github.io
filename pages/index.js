@@ -171,7 +171,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <a
-              href="https://meetupx.onrender.com/"
+              href="https://biscord.onrender.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
