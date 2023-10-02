@@ -21,7 +21,6 @@ export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
   const emailRef = useRef(null);
   const [copied, setCopied] = useState(false);
-  const history = useHistory();
 
   const copyEmailToClipboard = () => {
     // Select the email address text
