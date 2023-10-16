@@ -13,6 +13,7 @@ import design from "../public/design.png";
 import code from "../public/code.png";
 import consulting from "../public/consulting.png";
 import biscordpage from "../public/biscordpage.png";
+import xercisepage from "../public/xercisepage.png";
 import meetdown from "../public/meetdown.png";
 import { useState, useRef } from "react";
 import { pageExtensions } from "@/next.config";
@@ -176,6 +177,19 @@ export default function Home() {
               <div className="basis-1/3 flex-1 ">
                 <Image
                   src={biscordpage}
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                />
+              </div>
+            </a>
+            <a
+              className="basis-1/3 flex-1 "
+              href="https://xercise.onrender.com/"
+            >
+              <div className="basis-1/3 flex-1 ">
+                <Image
+                  src={xercisepage}
                   className="rounded-lg object-cover"
                   width={"100%"}
                   height={"100%"}
