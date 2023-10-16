@@ -169,43 +169,52 @@ export default function Home() {
               My Projects
             </h3>
           </div>
-          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <a
-              className="basis-1/3 flex-1 "
-              href="https://biscord.onrender.com/"
-            >
+          <div className="flex flex-col items-center justify-center gap-10 py-10 lg:flex-row lg:flex-wrap">
+            <a href="https://biscord.onrender.com/">
               <div className="basis-1/3 flex-1 ">
                 <Image
                   src={biscordpage}
                   className="rounded-lg object-cover"
+                  style={{ maxWidth: "760px" }}
                   width={"100%"}
                   height={"100%"}
+                  onMouseOver={(e) =>
+                    (e.currentTarget.style.boxShadow =
+                      "0 4px 8px rgba(0, 0, 0, 0.2)")
+                  }
+                  onMouseOut={(e) => (e.currentTarget.style.boxShadow = "none")}
                 />
               </div>
             </a>
-            <a
-              className="basis-1/3 flex-1 "
-              href="https://xercise.onrender.com/"
-            >
+            <a href="https://xercise.onrender.com/">
               <div className="basis-1/3 flex-1 ">
                 <Image
                   src={xercisepage}
                   className="rounded-lg object-cover"
+                  style={{ maxWidth: "760px" }}
                   width={"100%"}
                   height={"100%"}
+                  onMouseOver={(e) =>
+                    (e.currentTarget.style.boxShadow =
+                      "0 4px 8px rgba(0, 0, 0, 0.2)")
+                  }
+                  onMouseOut={(e) => (e.currentTarget.style.boxShadow = "none")}
                 />
               </div>
             </a>
-            <a
-              className="basis-1/3 flex-1 "
-              href="https://meetupx.onrender.com/"
-            >
+            <a href="https://meetupx.onrender.com/">
               <div className="basis-1/3 flex-1 ">
                 <Image
                   src={meetdown}
                   className="rounded-lg object-cover"
+                  style={{ maxWidth: "760px" }}
                   width={"100%"}
                   height={"100%"}
+                  onMouseOver={(e) =>
+                    (e.currentTarget.style.boxShadow =
+                      "0 4px 8px rgba(0, 0, 0, 0.2)")
+                  }
+                  onMouseOut={(e) => (e.currentTarget.style.boxShadow = "none")}
                 />
               </div>
             </a>
