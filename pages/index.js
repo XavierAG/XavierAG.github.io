@@ -8,7 +8,7 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 import Image from "next/image";
-import deved from "../public/dev-ed-wave.jpg";
+import deved from "../public/dev-ed-wave.png";
 import design from "../public/design.png";
 import code from "../public/code.png";
 import consulting from "../public/consulting.png";
