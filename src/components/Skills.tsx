@@ -18,7 +18,7 @@ export default function Skills() {
     {skills.map((skill) => (
       <span
         key={skill}
-        className="px-6 py-4 text-white rounded-2xl text-base sm:text-lg font-medium hover:bg-gray-500/50 transition bg-gray-700/20"
+        className="px-6 py-4 text-white rounded-2xl text-base sm:text-lg font-medium transition bg-[#6C63DF]/40"
       >
         {skill}
       </span>

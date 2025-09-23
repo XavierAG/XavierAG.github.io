@@ -24,22 +24,24 @@ export default function Projects() {
             className="m-4 relative rounded-xl overflow-hidden shadow-lg group"
           >
             {/* Project Image */}
+            <a href={proj.link} target="_blank">
             <img
               src={proj.image}
               alt={proj.title}
-              className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-105 brightness-75"
-            />
+              className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-105 brightness-75 pointer-events-auto"
+              />
+              </a>
             {/* Dimming Overlay */}
 
             {/* Overlay */}
-            <div className="absolute inset-0 flex flex-col justify-end items-start p-6 text-left">
+            <div className="absolute inset-0 flex flex-col justify-end items-start p-6 text-left pointer-events-none">
 
-              <h3 className="text-2xl font-bold text-white mb-2">{proj.title}</h3>
-              <p className="text-white mb-4">{proj.description}</p>
+              <h3 className="text-2xl font-bold text-white mb-2 pointer-events-auto">{proj.title}</h3>
+              <p className="text-white mb-4 pointer-events-auto">{proj.description}</p>
               <a
                 href={proj.link}
                 target="_blank"
-                className="px-4 py-2 bg-gray-800/50 text-white rounded-2xl text-sm font-medium hover:bg-gray-400/50 transition"
+                className="px-4 py-2 bg-gray-800/50 text-white rounded-2xl text-sm font-medium hover:bg-gray-400/50 transition pointer-events-auto"
               >
                 GitHub
               </a>
