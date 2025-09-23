@@ -27,7 +27,7 @@ export default function Projects() {
             <img
               src={proj.image}
               alt={proj.title}
-              className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-105 brightness-65"
+              className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-105 brightness-75"
             />
             {/* Dimming Overlay */}
 
